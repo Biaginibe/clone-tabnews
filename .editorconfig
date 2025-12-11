@@ -1,0 +1,9 @@
+# EditorConfig é um arquivo de configuração para definir estilos de codificação em diferentes editores e IDEs.
+# Para mais informações, visite https://editorconfig.org
+
+root = true
+
+# INDENTAÇÃO
+[*]
+indent_style = space
+indent_size = 2
