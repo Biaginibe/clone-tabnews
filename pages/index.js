@@ -17,7 +17,7 @@ function Home() {
         </p>
 
         <footer style={styles.footer}>
-          © {new Date().getFullYear()} — biginibe
+          © {new Date().getFullYear()} — biaginibe
         </footer>
       </div>
     </main>
