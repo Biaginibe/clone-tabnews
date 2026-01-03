@@ -8,7 +8,10 @@
     "lint:check": "prettier --check .",
     "lint:fix": "prettier --write .",
     "test": "jest",
-    "test:watch": "jest --watch"
+    "test:watch": "jest --watch",
+    "db-docker:up": "docker compose -f infra/compose.yaml up -d",
+    "db-docker:recreate": "docker compose -f infra/compose.yaml up -d --force-recreate",
+    "db-docker:down": "docker compose -f infra/compose.yaml down"
   },
   "author": "Beatriz Biagini",
   "license": "MIT",
